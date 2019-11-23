@@ -311,3 +311,61 @@ body{
   height: auto;
   margin: 10px;
 }
+form {
+	margin: 5px auto 5px auto;
+	padding:20px;
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+}
+form label {
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+form label,
+form input,
+form textarea {
+	float:left;
+	clear:both;
+}
+
+form input,
+form textarea {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+}
+
+form input[type=email]:focus,
+form input[type=text]:focus {
+	border-color:cornflowerblue;
+}
+
+input[type=submit] {
+	padding:15px 50px;
+	width:auto;
+	background:#383C30;
+	border:none;
+  color:white;
+  font-size: 16px;
+	cursor:pointer;
+	display:block;
+	float:right;
+	clear:right;
+}
+
+input[type=submit]:hover {
+	opacity:0.8;
+}
+
+input[type=submit]:active {
+	opacity:0.4;
+}
