@@ -311,7 +311,7 @@ body{
   height: auto;
   margin: 10px;
 }
-form {
+.forma {
 	margin: 5px auto 5px auto;
 	padding:20px;
 	width:400px;
@@ -320,21 +320,21 @@ form {
 	background:white;
 	border-radius:10px;
 }
-form label {
+.forma label {
 	font-size:14px;
 	color:darkgray;
 	cursor:pointer;
 }
 
-form label,
-form input,
-form textarea {
+.forma label,
+.forma input,
+.forma textarea {
 	float:left;
 	clear:both;
 }
 
-form input,
-form textarea {
+.forma input,
+.forma textarea {
 	margin:15px 0;
 	padding:15px 10px;
 	width:100%;
@@ -344,8 +344,8 @@ form textarea {
 	display:inline-block;
 }
 
-form input[type=email]:focus,
-form input[type=text]:focus {
+.forma input[type=email]:focus,
+.forma input[type=text]:focus {
 	border-color:cornflowerblue;
 }
 
